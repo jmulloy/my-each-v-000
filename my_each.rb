@@ -4,5 +4,6 @@ def my_each(my_statement) # put argument(s) here
   while i < array.length
     yield array |i|
     i = i + 1
+  end
   # code here
 end
