@@ -3,7 +3,6 @@ def my_each(my_statement) # put argument(s) here
   i = 0
   while i < array.length
     yield array |i|
-  end
-end
+    i = i + 1
   # code here
 end
