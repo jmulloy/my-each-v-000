@@ -1,7 +1,7 @@
 require "pry"
 def my_each(my_statement) # put argument(s) here
   i = 0
-  while i < array.length
+  while i < my_statement.length
     yield array |i|
     i = i + 1
   end
