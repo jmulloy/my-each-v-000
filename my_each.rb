@@ -1,8 +1,8 @@
 require "pry"
-def my_each(my_statement) # put argument(s) here
+def my_each(collection) # put argument(s) here
   i = 0
-  while i < my_statement.split(" ")
-    yield my_statement[i]
+  while i < collection.split(" ")
+    yield collection[i]
     i = i + 1
   end
   # code here
